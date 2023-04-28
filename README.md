@@ -68,3 +68,4 @@ As always, a huge shoutout to the folks down at W3Schools and Mozilla for the gr
 
 ## Author
 - Frontend Mentor - [@Kena-Njonge](https://www.frontendmentor.io/profile/Kena-Njonge)
+# FAQ-accordion-card
