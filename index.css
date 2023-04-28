@@ -1,0 +1,132 @@
+:root{
+    --textRed: hsl(14, 88%, 65%) ;
+    --textDarkBlue: hsl(238, 29%, 16%);
+    --gradientViolet: rgb(175, 103, 233);
+    --gradientBlue: rgb(101, 101, 231);
+    --textGrayBlue: hsl(240, 6%, 50%);
+    --textVGrayBlue: hsl(237, 12%, 33%);
+    --dividerBlue: hsl(240, 5%, 91%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+html, body{
+    margin:0;
+    background:linear-gradient(var(--gradientViolet),var(--gradientBlue));
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+p{
+    display: inline-block;
+    font-weight: 400;
+}
+h1{
+    font-weight: 700;
+}
+.content-container{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.container-a{
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
+    width: 1200px;
+    height: 500px;
+    position: relative;
+}
+.container-b{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+.imageframe{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.imagecontainer-a{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+}
+.imagecontainer-b{
+    width:100%;
+    height: fit-content;
+    position: relative;
+    overflow: hidden;
+}
+.imagecontainer-c{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+}
+.logo-image{
+    max-width: 50%;
+    position: relative;
+
+}
+.question-container{
+    width: 100%;
+    height: fit-content;
+    margin-top: 30px;
+}
+.question{
+    width: 80%;
+    border-bottom: solid;
+    border-color: var(--dividerBlue);
+}
+.pattern{
+    z-index: 20;
+    max-width: 130%;
+    left: -421px;
+    top: -245px;
+}
+.woman-image{
+    max-width: 75%;
+    z-index: 25;
+    top:-750px;
+    left: -90px;
+}
+.box-image{
+    z-index: 30;
+    position: relative;
+    top: -970px;
+    left: -120px;
+}
+.dropdown-svg{
+    display: inline;
+    position: relative;
+    float: right;
+    text-align: center;
+    top:10px;
+}
+.dropdown{
+    border-width: 0px; 
+    background-color: white;
+    border: none;
+}
+.dropdown:hover{
+    cursor: pointer;
+}
+.answer{
+    width: 80%;
+    border-bottom: solid;
+    border-color: var(--dividerBlue);
+    height: fit-content;
+}
+.question-content{
+    color: var(--textDarkBlue);
+}
+.answer-content{
+    color: var(--textGrayBlue);
+}
+.attribution{
+    color: var(--textDarkBlue);
+}
